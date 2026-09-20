@@ -1,0 +1,57 @@
+# Python-generated files
+__pycache__/
+*.py[cod]
+*$py.class
+build/
+dist/
+wheels/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets / environment variables (API keys: OpenAI, LangChain, HF, Pinecone)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Vector databases / RAG indexes (local, regenerable from source data)
+chroma_db/
+db/
+chroma.sqlite3
+*.sqlite3
+faiss_*/
+*.faiss
+index.pkl
+*.bin
+.chroma/
+.pinecone/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Caches / tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+.uv-cache/
+*.log
+
+# Model downloads (HuggingFace, etc.)
+.huggingface/
+*.safetensors
+*.gguf
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+**/.DS_Store
